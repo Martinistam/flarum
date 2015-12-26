@@ -1,3 +1,6 @@
 [submodule "workbench/core"]
 	path = workbench/core
 	url = https://github.com/Martinistam/core
+[submodule "workbench/akismet"]
+	path = workbench/akismet
+	url = https://github.com/Martinistam/akismet

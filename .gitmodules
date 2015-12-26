@@ -4,3 +4,6 @@
 [submodule "workbench/akismet"]
 	path = workbench/akismet
 	url = https://github.com/Martinistam/akismet
+[submodule "workbench/subscriptions"]
+	path = workbench/subscriptions
+	url = https://github.com/Martinistam/subscriptions

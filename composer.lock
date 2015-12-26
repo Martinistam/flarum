@@ -4,8 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "7d8a146b23e4d81d1b70d8500b83264c",
-    "content-hash": "6245df3978481fc2224f4f6aa466536f",
+    "hash": "46e953e35c8c679c4ee5b10ea46278cc",
+    "content-hash": "7b2878013ebbb63d78845a85fcf06073",
     "packages": [
         {
             "name": "danielstjules/stringy",
@@ -645,16 +645,11 @@
         {
             "name": "flarum/akismet",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/akismet.git",
-                "reference": "41907568b8b01c6a54a3f056e971527b17b971a6"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/akismet/zipball/41907568b8b01c6a54a3f056e971527b17b971a6",
+                "type": "path",
+                "url": "workbench/akismet/",
                 "reference": "41907568b8b01c6a54a3f056e971527b17b971a6",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "flarum/approval": "^0.1.0-beta.3",
@@ -678,7 +673,6 @@
                     "Flarum\\Akismet\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -692,20 +686,23 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2015-11-29 06:36:47"
+            "support": {
+                "issues": "https://github.com/flarum/core/issues",
+                "source": "https://github.com/flarum/akismet"
+            }
         },
         {
             "name": "flarum/approval",
-            "version": "dev-master",
+            "version": "v0.1.0-beta.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/approval.git",
-                "reference": "57ec7c57f23815ca969fb7fe5181465bde7ab7e2"
+                "reference": "f7b33f800c336a0b64e8b7999a8e08cc8bec5a6d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/approval/zipball/57ec7c57f23815ca969fb7fe5181465bde7ab7e2",
-                "reference": "57ec7c57f23815ca969fb7fe5181465bde7ab7e2",
+                "url": "https://api.github.com/repos/flarum/approval/zipball/f7b33f800c336a0b64e8b7999a8e08cc8bec5a6d",
+                "reference": "f7b33f800c336a0b64e8b7999a8e08cc8bec5a6d",
                 "shasum": ""
             },
             "require": {
@@ -742,7 +739,7 @@
             "keywords": [
                 "moderation"
             ],
-            "time": "2015-11-29 04:47:47"
+            "time": "2015-11-02 08:21:44"
         },
         {
             "name": "flarum/auth-facebook",
@@ -945,16 +942,16 @@
         },
         {
             "name": "flarum/composer-installer",
-            "version": "dev-master",
+            "version": "v0.2.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/flarum/composer-installer.git",
-                "reference": "ba2b48b1bb25a5970c5e271a09a0b95bb5cb25e5"
+                "reference": "6537352b44f5653736a1a15184faaf9633162d1d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/flarum/composer-installer/zipball/ba2b48b1bb25a5970c5e271a09a0b95bb5cb25e5",
-                "reference": "ba2b48b1bb25a5970c5e271a09a0b95bb5cb25e5",
+                "url": "https://api.github.com/repos/flarum/composer-installer/zipball/6537352b44f5653736a1a15184faaf9633162d1d",
+                "reference": "6537352b44f5653736a1a15184faaf9633162d1d",
                 "shasum": ""
             },
             "require-dev": {
@@ -974,7 +971,7 @@
             "license": [
                 "MIT"
             ],
-            "time": "2015-12-05 12:08:17"
+            "time": "2015-12-03 21:04:08"
         },
         {
             "name": "flarum/core",
@@ -1364,16 +1361,11 @@
         {
             "name": "flarum/mentions",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/mentions.git",
-                "reference": "ddf7dd24c2db2418fd0426a3254f2d8dd3346e44"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/mentions/zipball/ddf7dd24c2db2418fd0426a3254f2d8dd3346e44",
+                "type": "path",
+                "url": "workbench/mentions/",
                 "reference": "ddf7dd24c2db2418fd0426a3254f2d8dd3346e44",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "flarum/core": "^0.1.0-beta.3"
@@ -1394,7 +1386,6 @@
                     "Flarum\\Mentions\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1408,7 +1399,10 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2015-11-21 02:41:22"
+            "support": {
+                "issues": "https://github.com/flarum/core/issues",
+                "source": "https://github.com/flarum/mentions"
+            }
         },
         {
             "name": "flarum/pusher",
@@ -1515,16 +1509,11 @@
         {
             "name": "flarum/subscriptions",
             "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/flarum/subscriptions.git",
-                "reference": "b32784a9027bc69ac8e9a5d42f1a20d4d35460dd"
-            },
             "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/flarum/subscriptions/zipball/b32784a9027bc69ac8e9a5d42f1a20d4d35460dd",
+                "type": "path",
+                "url": "workbench/subscriptions/",
                 "reference": "b32784a9027bc69ac8e9a5d42f1a20d4d35460dd",
-                "shasum": ""
+                "shasum": null
             },
             "require": {
                 "flarum/core": "^0.1.0-beta.3"
@@ -1545,7 +1534,6 @@
                     "Flarum\\Subscriptions\\": "src/"
                 }
             },
-            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
             ],
@@ -1559,7 +1547,10 @@
             "keywords": [
                 "discussion"
             ],
-            "time": "2015-11-20 02:08:00"
+            "support": {
+                "issues": "https://github.com/flarum/core/issues",
+                "source": "https://github.com/flarum/subscriptions"
+            }
         },
         {
             "name": "flarum/suspend",
@@ -4467,12 +4458,6 @@
             "package": "flarum/core"
         },
         {
-            "alias": "0.1.0-beta.4",
-            "alias_normalized": "0.1.0.0-beta4",
-            "version": "9999999-dev",
-            "package": "flarum/approval"
-        },
-        {
             "alias": "0.1.0-beta-3",
             "alias_normalized": "0.1.0.0-beta3",
             "version": "9999999-dev",
@@ -4481,7 +4466,6 @@
     ],
     "minimum-stability": "beta",
     "stability-flags": {
-        "flarum/composer-installer": 20,
         "flarum/core": 20,
         "flarum/akismet": 20,
         "flarum/approval": 20,

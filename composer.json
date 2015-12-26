@@ -30,10 +30,10 @@
     }
   ],
   "require": {
-    "flarum/composer-installer": "dev-master",
+    "flarum/composer-installer": "*",
     "flarum/core": "dev-master as 0.1.0-beta.4",
-    "flarum/akismet": "dev-master",
-    "flarum/approval": "dev-master as 0.1.0-beta.4",
+    "flarum/akismet": "*@dev",
+    "flarum/approval": "*@dev",
     "flarum/auth-facebook": "dev-master",
     "flarum/auth-github": "dev-master",
     "flarum/auth-twitter": "dev-master",
@@ -44,10 +44,10 @@
     "flarum/likes": "dev-master",
     "flarum/lock": "dev-master",
     "flarum/markdown": "dev-master",
-    "flarum/mentions": "dev-master",
+    "flarum/mentions": "*@dev",
     "flarum/pusher": "dev-master",
     "flarum/sticky": "dev-master",
-    "flarum/subscriptions": "dev-master",
+    "flarum/subscriptions": "*@dev",
     "flarum/suspend": "dev-master",
     "flarum/tags": "dev-master"
   },

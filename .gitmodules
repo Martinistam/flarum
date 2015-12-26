@@ -7,3 +7,9 @@
 [submodule "workbench/subscriptions"]
 	path = workbench/subscriptions
 	url = https://github.com/Martinistam/subscriptions
+[submodule "workbench/mentions"]
+	path = workbench/mentions
+	url = https://github.com/Martinistam/mentions
+[submodule "workbench/approval"]
+	path = workbench/approval
+	url = https://github.com/Martinistam/approval

@@ -81,8 +81,6 @@ block="
                    text/plain \
                    text/xml;
         gzip_buffers 16 8k;
-        gzip_disable "MSIE [1-6]\.(?!.*SV1)";
-
     }
 "
 
